@@ -17,8 +17,8 @@ const FILTER_MAP = {
   Aktif: task => !task.completed,
   Selesai: task => task.completed
 };
-const FILTER_NAMES = Object.keys(FILTER_MAP);
 
+const FILTER_NAMES = Object.keys(FILTER_MAP);
 
 function App(props) {
   const [tasks, setTasks] = useState(props.tasks);
@@ -37,6 +37,11 @@ function App(props) {
     setTasks(updatedTasks);
   }
 
+  function deleteTask(id) {
+    const remainingTasks = tasks.filter(task => id !== task.id);
+    setTasks(remainingTasks);
+  }
+
   function editTask(id, newName) {
     const editedTaskList = tasks.map(task => {
     // if this task has the same ID as the edited task
@@ -48,12 +53,6 @@ function App(props) {
     });
     setTasks(editedTaskList);
   }  
-  
-  function deleteTask(id) {
-    const remainingTasks = tasks.filter(task => id !== task.id);
-    setTasks(remainingTasks);
-  }
-  
   
   const taskList = tasks
   .filter(FILTER_MAP[filter])

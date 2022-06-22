@@ -1,16 +1,13 @@
 {
   "files": {
-    "main.css": "/firmanh94/todolist.git/static/css/main.41175115.css",
-    "main.js": "/firmanh94/todolist.git/static/js/main.94884377.js",
-    "static/js/787.97a945da.chunk.js": "/firmanh94/todolist.git/static/js/787.97a945da.chunk.js",
-    "static/media/iconoclast.png": "/firmanh94/todolist.git/static/media/iconoclast.1cb6e7725537dcd68ce5.png",
-    "index.html": "/firmanh94/todolist.git/index.html",
-    "main.41175115.css.map": "/firmanh94/todolist.git/static/css/main.41175115.css.map",
-    "main.94884377.js.map": "/firmanh94/todolist.git/static/js/main.94884377.js.map",
-    "787.97a945da.chunk.js.map": "/firmanh94/todolist.git/static/js/787.97a945da.chunk.js.map"
+    "main.css": "/todolist/static/css/main.1eb6ab0d.css",
+    "main.js": "/todolist/static/js/main.7485af52.js",
+    "index.html": "/todolist/index.html",
+    "main.1eb6ab0d.css.map": "/todolist/static/css/main.1eb6ab0d.css.map",
+    "main.7485af52.js.map": "/todolist/static/js/main.7485af52.js.map"
   },
   "entrypoints": [
-    "static/css/main.41175115.css",
-    "static/js/main.94884377.js"
+    "static/css/main.1eb6ab0d.css",
+    "static/js/main.7485af52.js"
   ]
 }
